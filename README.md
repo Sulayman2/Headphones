@@ -4,10 +4,10 @@ A web is to created from the stratch without any assistance. The web created sho
 
 This task is to test the knowledge of the class taking so far
 
-##  Structure of the Web
+## Structure of the Web
 
 The web is gonna be creatred only with HTML and CSS.
 The HTML structure is going to have 3 major tags, the html tag, the head tag, and the body tag (which is going to hiouse the main elements)
 
 ### Author:
-Sulayman Adebola Adewale
+Sulayman Adebola Adewale.
