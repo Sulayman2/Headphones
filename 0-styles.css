@@ -1,0 +1,106 @@
+body {
+    color: black;
+    font-family: Source Sana Pro;
+    font-style: normal;
+}
+
+.mark {
+    background-image: url(images/headphones_hero_1.jpg);
+    height: 800px;
+}
+
+.navmenu {
+    float: right;
+}
+  
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+  
+.navbar .nav-link {
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 2rem 0 0;
+  }
+  
+.nav .nav-item {
+    display: block;
+    padding: 0.5rem 0;
+    position: relative;
+}
+  
+.nav .nav-item:hover {
+    color: #ffffff
+    text-decoration: none;
+  }
+  
+.nav .nav-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 0;
+    height: 0.2rem;
+  }
+  
+.nav .nav-item:hover .nav-link::before {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navmenu {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 41px;
+    color: #ffffff;
+}
+
+.text {
+    margin: 350px 250px;
+    height: 313px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h6 {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+button {
+    height: 44px;
+    border-radius: 22px;
+    background: #ff6565;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.text-1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* What we do */
